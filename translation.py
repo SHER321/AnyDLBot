@@ -1,17 +1,15 @@
 class Translation(object):
-    START_TEXT = """This is an @AnyDLBot clone created using the Open Source code available.
-Source Code: https://github.com/SpEcHiDe/AnyDLBot
-© @AnyDLBot"""
+    START_TEXT = """This is @TTDownloadRobot created by @tek_tak ."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
     ABS_TEXT = " Please don't be selfish."
-    UPGRADE_TEXT = "This is an @AnyDLBot clone created using the Open Source <a href='https://github.com/SpEcHiDe/AnyDLBot'>code</a>. \nStart @AnyDLBot to know Paid Plans!"
+    UPGRADE_TEXT = "There is a surprise, Its completely free for you."
     FORMAT_SELECTION = "Select the desired format: <a href='{}'>file size might be approximate</a> \nIf you want to set custom thumbnail, send photo before or quickly after tapping on any of the below buttons.\nYou can use /deletethumbnail to delete the auto-generated thumbnail."
     SET_CUSTOM_USERNAME_PASSWORD = """If you want to download premium videos, provide in the following format:
 URL | filename | username | password"""
     NOYES_URL = "@robot URL detected. Please use https://shrtz.me/PtsVnf6 and get me a fast URL so that I can upload to Telegram, without me slowing down for other users."
     DOWNLOAD_START = "trying to download"
     UPLOAD_START = "trying to upload"
-    RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
+    RCHD_BOT_API_LIMIT = "trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
     AFTER_SUCCESSFUL_UPLOAD_MSG = "Please rate me if you find me useful. https://t.me/tlgrmcbot?start=anydl_bot-bot"
     AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nPlease rate me if you find me useful. https://t.me/tlgrmcbot?start=anydl_bot-bot \nUploaded in {} seconds."
@@ -25,23 +23,7 @@ URL | filename | username | password"""
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "no-one gonna help you\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
-    CURENT_PLAN_DETAILS = """Current plan details
---------
-Telegram ID: <code>{}</code>
-Plan name: <a href='https://t.me/SpEcHlDe/599'>{}</a>
-Expires on: {}"""
-    HELP_USER = """There are multiple things I can do:
-👉 <a href="https://t.me/SpEcHlDe/608">All Supported Video / File Formats, with custom file name and custom thumbnail support</a>
-👉 <a href="https://t.me/SpEcHlDe/609">Upload as file from any HTTP link, with custom thumbnail support</a>
-👉 <a href="https://telegram.dog/AnyDLBot">Convert To Streamable Video, any Telegram file</a>
-👉 <a href="https://telegram.dog/AnyDLBot">Convert To Telegram Audio, the media sent as Telegram Documents</a>
-👉 <a href="https://t.me/SpEcHlDe/610">ReName Telegram files, with custom thumbnail support</a>
-👉 <a href="https://t.me/SpEcHlDe/625">Generate Custom Thumbnail by sending two photos in a Media Album</a>
-👉 <a href="https://t.me/SpEcHlDe/653">Trim large videos</a>, and <a href="https://t.me/SpEcHlDe/652">Take Screenshots</a> of Telegram media files.
-👉 <a href="https://t.me/SpEcHlDe/657">Extract compressed Telegram media</a>
-👉 <a href="https://t.me/SpEcHlDe/660">Get a Telegram sticker as a Telegram downloadable media</a>
---------
-Send /me to know current plan details"""
+    CURENT_PLAN_DETAILS = """There is no special plan for you... This is the best"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
