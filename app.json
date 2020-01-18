@@ -1,5 +1,5 @@
 {
-  "name": "TTDownloadRobot",
+  "name": "AnyDLBot",
   "description": "Telegram's best Open Source ALL-In-One Multi Purpose RoBot. Create your Fork now.",
   "keywords": [
     "telegram",
@@ -14,9 +14,9 @@
     "remote",
     "uploader"
   ],
-  "success_url": "https://telegram.dog/TTDownloadRobot",
-  "website": "https://t.me/tek-tak",
-  "repository": "https://github.com/Tech-Talk-Git/AnyDLBot",
+  "success_url": "https://telegram.dog/AnyDLBot",
+  "website": "https://github.com/SpEcHiDe/AnyDLBot",
+  "repository": "https://github.com/SpEcHiDe/AnyDLBot",
   "env": {
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
@@ -41,7 +41,7 @@
     "AUTH_USERS": {
       "description": "allow only pre-defined users to use this bot",
       "value": ""
-      "required": false
+"required": false
     },
     "DEF_THUMB_NAIL_VID_S": {
       "description": "default thumbnail to be used in the videos. Incase, youtube-dl is unable to find a thumbnail.",
